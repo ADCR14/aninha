@@ -1,0 +1,20 @@
+comandos
+mkdir Aninha
+cd Aninha/
+git init
+git remote add origin https://github.com/ADCR14/aninha.git
+code .
+git config user.name "ADCR14"
+git config user.email "a.rodrigues14@escola.pr.gov.br"
+git add .
+git status
+git commit -m "primeiro commit, arquivo index criado"
+git branch -M main
+git push -u origin main
+git branch "primeira"
+git checkout primeira
+git add .
+git commit -m "arquivo criado dentro da branch"
+git checkout main
+git merge primeira
+git push
